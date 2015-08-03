@@ -284,7 +284,11 @@ ul.primary { margin:1.5em 0 .2em; }
 .region-navigation .block { float:left; }
 .region-navigation .block.pull-right { float:right; }
 .content-row2 [class*="span"]:nth-child(2n+1), .content-row3 [class*="span"]:nth-child(3n+1), .content-row4 [class*="span"]:nth-child(4n+1) { clear: both; margin-left:0; }
+
+/* Footer blocks to single column */
+#footer-content .block {width:100%;}
 }
+
 
 /* landscape phones and down */
 @media (max-width: 480px) {
